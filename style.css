@@ -252,4 +252,250 @@ body {
   .mobile {
     display: none;
   }
+  header {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-left: 280px;
+  }
+  .web {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+  }
+  .title {
+    position: absolute;
+    width: 123px;
+    height: 29px;
+    margin-left: 18px;
+    margin-top: 32px;
+    color: #4e5150;
+    font-weight: 600;
+  }
+
+  .style-text-color {
+    color: #4e5150;
+  }
+
+  .container-grey {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20.96px;
+    width: 350px;
+    height: 489px;
+    left: 18px;
+    top: 80px;
+    background: #f2f2f2;
+    border-radius: 12px;
+  }
+
+  .container-product-one {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-top: 15px;
+    justify-content: space-around;
+    gap: 8px;
+  }
+
+  .photo {
+    width: 160.71px;
+    height: 124.32px;
+    border-radius: 8px;
+  }
+
+  .container-data-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+
+  .style-subtitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .container-value-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container-numbers {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  .orange-style {
+    color: #f2994a;
+  }
+
+  .style-line-number {
+    text-decoration: line-through;
+  }
+
+  .container-sum-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 122.8px;
+    height: 49.86px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+  }
+
+  .style-type-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13.49px;
+    height: 13.49px;
+    color: #828282;
+    margin-left: 15px;
+    border-radius: 4px;
+  }
+
+  .container-totals {
+    display: flex;
+    width: 327.06px;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .linea {
+    border: 1px solid #bdbdbd;
+  }
+
+  .container-shipping {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .container-information-person {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20.96px;
+    width: 350px;
+    left: 18px;
+    top: 80px;
+    border-radius: 12px;
+  }
+
+  .title-secundary {
+    width: 179.85px;
+    height: 16.52px;
+    left: 12px;
+    top: 610.06px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 12px;
+  }
+  form {
+    gap: 10px;
+  }
+
+  .style-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    width: 349.25px;
+    height: 40.56px;
+    gap: 10px;
+  }
+
+  .icon-style {
+    color: #828282;
+  }
+
+  .input {
+    border: none;
+  }
+  .container-email,
+  .container-phone,
+  .container-address,
+  .container-name,
+  .container-city,
+  .container-country,
+  .container-postal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* inputs pequeños */
+  .container-country-postal {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .style-input-small {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    width: 162.98px;
+    height: 40.56px;
+    gap: 10px;
+  }
+
+  .input-small {
+    border: none;
+    width: 109px;
+  }
+  /* Checbos input */
+  .container-checkbox {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  /* button continue */
+  .container-button {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .style-button {
+    width: 166px;
+    height: 54px;
+    left: 240px;
+    top: 1178.02px;
+    background: #f2994a;
+    border-radius: 12px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #ffffff;
+    border: none;
+  }
 }
