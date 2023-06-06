@@ -102,4 +102,22 @@ body {
     background: #e0e0e0;
     border-radius: 4px;
   }
+  .container-totals {
+    display: flex;
+    width: 327.06px;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  .linea {
+    border: 1px solid #bdbdbd;
+  }
+  .container-shipping {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
