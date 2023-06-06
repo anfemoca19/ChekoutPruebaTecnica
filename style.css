@@ -8,6 +8,9 @@ body {
 /* vrs Mobile */
 
 @media (max-width: 1250px) {
+  .web {
+    display: none;
+  }
   .title {
     position: absolute;
     width: 123px;
@@ -99,10 +102,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 21.2px;
-    height: 21.2px;
+    width: 13.49px;
+    height: 13.49px;
     color: #828282;
-    background: #e0e0e0;
+    margin-left: 15px;
     border-radius: 4px;
   }
 
@@ -162,6 +165,7 @@ body {
     border-radius: 12px;
     width: 349.25px;
     height: 40.56px;
+    gap: 10px;
   }
 
   .icon-style {
@@ -174,42 +178,56 @@ body {
   .container-email,
   .container-phone,
   .container-address,
-  .container-name {
+  .container-name,
+  .container-city,
+  .container-country,
+  .container-postal {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-bottom: 20px;
   }
 
+  /* inputs pequeños */
   .container-country-postal {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin-top: 20px;
   }
 
   .style-input-small {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     border: 1px solid #828282;
     border-radius: 12px;
     width: 162.98px;
     height: 40.56px;
+    gap: 10px;
   }
 
+  .input-small {
+    border: none;
+    width: 109px;
+  }
+  /* Checbos input */
   .container-checkbox {
     display: flex;
     flex-direction: row;
     gap: 5px;
+    margin-top: 10px;
   }
 
+  /* button continue */
   .container-button {
     display: flex;
     flex-direction: row;
     align-content: flex-end;
     justify-content: flex-end;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .style-button {
@@ -227,5 +245,11 @@ body {
     /* identical to box height */
     color: #ffffff;
     border: none;
+  }
+}
+
+@media (min-width: 1250px) {
+  .mobile {
+    display: none;
   }
 }

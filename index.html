@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="style.css"/>
   <title>Checkout</title>
 </head>
@@ -12,7 +12,7 @@
   <header>
     <h1 class="title">Checkout</h1>
   </header>
-  <main>
+  <main class="mobile">
     <section >
       <div class="container-grey">
         <div>
@@ -76,14 +76,18 @@
           <div class="container-email">
             <label for="">E-mail</label>
             <div class="style-input">
-              <i class="fa-solid fa-envelope"></i>
+              <span class="material-symbols-outlined style-type-icon  ">
+                mail
+                </span>
               <input  class="input" type="text" placeholder="Enter your email...">
             </div>
           </div>
           <div class="container-phone">
             <label for="">Phone</label>
             <div class="style-input">
-              <i class="fa-solid fa-phone"></i>
+              <span class="material-symbols-outlined style-type-icon  ">
+                call
+                </span>
               <input  class="input" type="text" placeholder="Enter your phone...">
             </div>
           </div>
@@ -97,21 +101,27 @@
           <div class="container-name">
             <label for="">Full name</label>
             <div class="style-input">
-              <i class="fa-solid fa-envelope"></i>
+              <span class="material-symbols-outlined style-type-icon ">
+                account_circle
+                </span>
               <input  class="input" type="text" placeholder="Rodney Cotton">
             </div>
           </div>
           <div class="container-address">
             <label for="">Address</label>
             <div class="style-input">
-              <i class="fa-solid fa-envelope"></i>
+              <span class="material-symbols-outlined style-type-icon">
+                home
+                </span>
               <input  class="input" type="text" placeholder="Enter your address...">
             </div>
           </div>
           <div class="container-city">
             <label for="">City</label>
             <div class="style-input">
-              <i class="fa-solid fa-envelope"></i>
+              <span class="material-symbols-outlined style-type-icon">
+                location_city
+                </span>
               <input  class="input" type="text" placeholder="Enter your city...">
             </div>
           </div>
@@ -119,15 +129,21 @@
             <div class="container-country">
               <label for="">Country</label>
               <div class="style-input-small">
-                <i class="fa-solid fa-envelope"></i>
-                <select  class="" type="" placeholder="Your country...">
+                <span class="material-symbols-outlined style-type-icon">
+                  location_city
+                  </span>
+                <select class="input" name="select">
+                  <option value="value1">Your country...</option>
+                </select>
               </div>
             </div>
             <div class="container-postal">
               <label for="">Postal code</label>
               <div class="style-input-small">
-                <i class="fa-solid fa-envelope"></i>
-                <input  class="input" type="text" placeholder="Your postal code...">
+                <span class="material-symbols-outlined style-type-icon">
+                  markunread_mailbox
+                  </span>
+                <input  class="input-small" type="text" placeholder="Your postal code...">
               </div>
             </div>
           </div>
@@ -142,6 +158,137 @@
         </form>
       </div>
     </section>
+</main>
+<main class="web">
+  <section >
+    <div class="container-grey">
+      <div>
+        <div class="container-product-one">
+          <div>
+            <img  class ="photo" src="/imagenes/photo1.png" alt="vintageBackbag">
+          </div>
+          <div class="container-data-item">
+            <div class="container-value-item">
+              <span class="style-text-color style-subtitle" >Vintage Backbag</span>
+              <div class="container-numbers">
+                <span class="orange-style">$54.99</span>
+                <span class="style-line-number style-text-color">$94.99</span>
+              </div>
+            </div>
+            <div class="container-sum-item">
+              <span class="style-type-icon">-</span>
+              <span>1</span>
+              <span class="style-type-icon">+</span>
+            </div>
+          </div>
+        </div>
+        <div class="container-product-one">
+          <div>
+            <img  class ="photo" src="/imagenes/photo2.png" alt="vintageBackbag">
+          </div>
+          <div class="container-data-item">
+            <div class="container-value-item">
+              <span class="style-text-color style-subtitle" >Levis Shoes</span>
+              <div class="container-numbers">
+                <span class="orange-style">$74.99</span>
+                <span class="style-line-number style-text-color">$124.99</span>
+              </div>
+            </div>
+            <div class="container-sum-item">
+              <span class="style-type-icon">-</span>
+              <span>1</span>
+              <span class="style-type-icon">+</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-totals">
+        <span class="linea"></span>
+        <div class="container-shipping">
+          <span>Shipping</span>
+          <span>$19</span>
+        </div>
+        <span class="linea"></span>
+        <div class="container-shipping">
+          <span>Total</span>
+          <span>$148.98</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-information-person">
+      <span class="title-secundary">Contact information</span>
+      <form action="">
+        <div class="container-email">
+          <label for="">E-mail</label>
+          <div class="style-input">
+            <i class="fa-solid fa-envelope"></i>
+            <input  class="input" type="text" placeholder="Enter your email...">
+          </div>
+        </div>
+        <div class="container-phone">
+          <label for="">Phone</label>
+          <div class="style-input">
+            <i class="fa-solid fa-phone"></i>
+            <input  class="input" type="text" placeholder="Enter your phone...">
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <section>
+    <div class="container-information-person">
+      <span class="title-secundary">Shipping Adrdess</span>
+      <form action="">
+        <div class="container-name">
+          <label for="">Full name</label>
+          <div class="style-input">
+            <i class="fa-solid fa-envelope"></i>
+            <input  class="input" type="text" placeholder="Rodney Cotton">
+          </div>
+        </div>
+        <div class="container-address">
+          <label for="">Address</label>
+          <div class="style-input">
+            <i class="fa-solid fa-envelope"></i>
+            <input  class="input" type="text" placeholder="Enter your address...">
+          </div>
+        </div>
+        <div class="container-city">
+          <label for="">City</label>
+          <div class="style-input">
+            <i class="fa-solid fa-envelope"></i>
+            <input  class="input" type="text" placeholder="Enter your city...">
+          </div>
+        </div>
+        <div class="container-country-postal">
+          <div class="container-country">
+            <label for="">Country</label>
+            <div class="style-input-small">
+              <i class="fa-solid fa-envelope"></i>
+              <input  class="" type="" placeholder="Your country...">
+            </div>
+          </div>
+          <div class="container-postal">
+            <label for="">Postal code</label>
+            <div class="style-input-small">
+              <i class="fa-solid fa-envelope"></i>
+              <input  class="input" type="text" placeholder="Your postal code...">
+            </div>
+          </div>
+        </div>
+        <div class="container-checkbox">
+          <input type="checkbox">
+          <span>Save this information for next time</span>
+        </div>
+        <div class="container-button">
+          <div></div>
+          <button class="style-button">Continue</button>
+        </div>
+      </form>
+    </div>
+  </section>
 </main>
 
 <script src="https://kit.fontawesome.com/b5f24e1807.js" crossorigin="anonymous"></script>
